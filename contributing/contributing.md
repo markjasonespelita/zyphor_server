@@ -1,11 +1,11 @@
-# 🌟 Zyphor OS Contributors
+# 🌟 Zyphor Server OS Contributors
 
-Welcome to the Zyphor OS contributors list!
+Welcome to the Zyphor Server OS contributors list!
 
 This is a space for everyone—students, beginners, and even those who are just starting their journey in open source.
 
 You don’t need to know how to code.  
-Adding your name here means you are now part of the Zyphor OS journey 🚀
+Adding your name here means you are now part of the Zyphor Server OS journey 🚀
 
 ---
 

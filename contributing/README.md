@@ -1,10 +1,10 @@
-# 🤝 Contributing to Zyphor OS
+# 🤝 Contributing to Zyphor Server
 
 Welcome!
 
 This is your **first step into the world of open source**.
 
-Zyphor OS is not just a project—it's a learning space where anyone can contribute, even without coding experience.
+Zyphor Server is not just a project—it's a learning space where anyone can contribute, even without coding experience.
 
 ---
 
@@ -52,7 +52,7 @@ After your first contribution, you can try:
 > Everyone starts somewhere.  
 > Even the smallest contribution is a step forward.
 
-Zyphor OS welcomes you—whether you're a beginner or experienced.
+Zyphor Server welcomes you—whether you're a beginner or experienced.
 
 ---
 
@@ -63,4 +63,4 @@ Don’t be afraid to fail.
 
 This is a safe place to learn.
 
-Welcome to Zyphor OS 🚀
+Welcome to Zyphor Server 🚀
