@@ -13,6 +13,49 @@
 
 # Zyphor OS Custom Post Install Configurations (1)
 
+configure_zyphor() {
+    set -e
+
+    echo "INFO: Applying Zyphor OS customizations..."
+
+    # ── Wallpapers & Desktop Base ──────────────────────────────────────────────
+    echo "INFO: Setting up desktop wallpapers..."
+    mkdir -p /usr/share/images/desktop-base
+    ln -sf /usr/share/backgrounds/backgrounds.png  /usr/share/images/desktop-base/default
+    ln -sf /usr/share/backgrounds/backgrounds2.png /usr/share/images/desktop-base/default-2
+    ln -sf /usr/share/backgrounds/backgrounds3.png /usr/share/images/desktop-base/default-3
+    ln -sf /usr/share/backgrounds/backgrounds4.png /usr/share/images/desktop-base/default-4
+
+    # ── LightDM Face Icon ──────────────────────────────────────────────────────
+    echo "INFO: Configuring LightDM face icon..."
+    ln -sf /etc/skel/.face /etc/skel/.face.icon
+
+    # ── GRUB Bootloader ────────────────────────────────────────────────────────
+    echo "INFO: Setting up GRUB bootloader splash..."
+    mkdir -p /boot/zyphor
+    cp /usr/share/backgrounds/zyphor-grub-bootloader-screensavers/grub-bootloader-screen-saver.png \
+       /boot/zyphor/splash.png
+    update-grub
+
+    # Redmond 7 Configuration
+    cp /etc/skel/.face /usr/share/pixmaps/zyphor-logo.png
+    gtk-update-icon-cache /usr/share/icons/hicolor/ -f -t
+
+    chmod +x /usr/local/bin/zyphor-firstboot
+    # End Of Redmond 7 Configuration
+
+    # ── Zyphor CLI ─────────────────────────────────────────────────────────────
+    echo "INFO: Installing Zyphor CLI..."
+    apt install -y zyphor-cli
+    chmod +x /usr/local/bin/zyphor
+
+    # ── Plymouth (TODO) ────────────────────────────────────────────────────────
+    # echo "INFO: Configuring Plymouth theme..."
+    # plymouth-set-default-theme zyphor --rebuild-initrd
+
+    echo "INFO: Zyphor OS customizations applied successfully."
+}
+
 # End Of Zyphor OS Custom Post Install Configurations (2)
 
 configure_sources_list() {
@@ -107,5 +150,7 @@ configure_usergroups
 configure_terminal
 
 # Zyphor OS Custom Post Install Configurations (2)
+
+configure_zyphor
 
 # End Of Zyphor OS Custom Post Install Configurations (2)
