@@ -1,3 +1,13 @@
+# [1.2.0](https://github.com/markjasonespelita/zyphor_server/compare/v1.1.0...v1.2.0) (2026-05-24)
+
+
+### Features
+
+* added network-manager as default application for wireless internet connection. ([755379b](https://github.com/markjasonespelita/zyphor_server/commit/755379b3d5c5a4a983b5861c56c4ce2bb8225e36))
+* added SSL_ACTIVATION_GUIDE in the home dir. ([251e0a4](https://github.com/markjasonespelita/zyphor_server/commit/251e0a4c24ce4497197885d9814c415b4dee9b43))
+* added VHOST_SAMPLE_FILE in the home dir. ([b0cd591](https://github.com/markjasonespelita/zyphor_server/commit/b0cd591fad84f7fe67f77675ce79d3cee8ca11bc))
+* added WIRELESS_CONNECTION_GUIDE in the home dir. ([5a1f96d](https://github.com/markjasonespelita/zyphor_server/commit/5a1f96d7f1ca137797c674417847c9f6953abda4))
+
 # [1.1.0](https://github.com/markjasonespelita/zyphor_server/compare/v1.0.0...v1.1.0) (2026-05-24)
 
 
