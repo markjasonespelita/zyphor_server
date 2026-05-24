@@ -1,3 +1,23 @@
+# [1.1.0](https://github.com/markjasonespelita/zyphor_server/compare/v1.0.0...v1.1.0) (2026-05-24)
+
+
+### Bug Fixes
+
+* changed the logo debian banner on the top so that it will be centered. ([57aa684](https://github.com/markjasonespelita/zyphor_server/commit/57aa6849fce4b2947b49b05e01786e105fa89db5))
+* renamed zyphor-finish-install into kali-finish-install. ([d9fdbb2](https://github.com/markjasonespelita/zyphor_server/commit/d9fdbb2ceea4b37daf65d862d5c07636952d21c3))
+
+
+### Features
+
+* added .gitignore so that it will ignore files that are generated during build. ([fda6db7](https://github.com/markjasonespelita/zyphor_server/commit/fda6db760679bba6048c5eaf4a0480aac61cc5e0))
+* added ufw - Uncomplicated Firewall to manage server firewalls. ([2ba1062](https://github.com/markjasonespelita/zyphor_server/commit/2ba1062efc6c2f43e7085c72e40b46c264e63817))
+* changed d-i netcfg/get_hostname string kali to zyphor. ([3236f8e](https://github.com/markjasonespelita/zyphor_server/commit/3236f8ee01f00828717baf98bcbdcda096772262))
+* changed menuentry os name to Zyphor Server ([7ffda94](https://github.com/markjasonespelita/zyphor_server/commit/7ffda947038324d0765d95f97a00305951181dbb))
+* changed the GRUB Menu config title to Zyphor Server live menu in BIOS mode. ([e1e494e](https://github.com/markjasonespelita/zyphor_server/commit/e1e494ea68b8388dafc928aa55690ebbf1aad68c))
+* changed the gui installer banner on the top. ([f6dafdc](https://github.com/markjasonespelita/zyphor_server/commit/f6dafdc3997d691ae617d796898d41a8942f26a5))
+* changed the livemode hostname, livemode username into zyphor ([f548d7c](https://github.com/markjasonespelita/zyphor_server/commit/f548d7c111fe022d19220ae2d495763bceb83901))
+* modified the build scripts, remove --purge by default during builds to avoid re-debootstraping debian. ([7fc6b0c](https://github.com/markjasonespelita/zyphor_server/commit/7fc6b0c077124dc57693aab671fc82fb7bcca2f0))
+
 # 1.0.0 (2026-05-07)
 
 
