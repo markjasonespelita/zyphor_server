@@ -1,0 +1,16 @@
+<VirtualHost *:PORT>
+    ServerAdmin webmaster@localhost
+    DocumentRoot /var/www/html/PROJECT_DIR
+
+    SSLEngine on
+    SSLCertificateFile /etc/ssl/certs/apache-selfsigned.crt
+    SSLCertificateKeyFile /etc/ssl/private/apache-selfsigned.key
+
+    <Directory /var/www/html/PROJECT_DIR>
+        AllowOverride All
+        Require all granted
+    </Directory>
+
+    ErrorLog ${APACHE_LOG_DIR}/dict1_error.log
+    CustomLog ${APACHE_LOG_DIR}/dict1_access.log combined
+</VirtualHost>
