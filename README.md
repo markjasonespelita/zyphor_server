@@ -6,6 +6,6 @@ Zyphor Server is a lightweight server-focused operating system designed for perf
 
 It is designed for developers, system builders, and learners who want full control of their server environment.
 
-👉 **[Click Here To Download Zyphor Server ISO (v1.0.0 Beta.)](https://drive.google.com/uc?export=download&id=1vfu4HSTKzetTJPUgr_5AGEAAxp4zyqJQ)** 
+👉 **[Click Here To Download Zyphor Server ISO (v1.1.0 Beta.)](https://drive.google.com/uc?export=download&id=1DFn7rI3843HYI5TlrMnzbybnmAFwZ8ie)** 
 > 📦 Hosted on Google Drive  
 > 💿 File Type: ISO Image 
