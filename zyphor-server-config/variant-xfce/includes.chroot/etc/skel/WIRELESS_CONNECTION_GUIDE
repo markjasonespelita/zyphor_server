@@ -1,0 +1,19 @@
+#Check Wifi
+nmcli device
+
+# Posible Result
+wlan0   wifi   disconnected
+
+# Turn Wifi On
+sudo nmcli radio wifi on
+
+# Scan Wifi
+nmcli dev wifi list
+
+# Connect to Wifi
+
+sudo nmcli dev wifi connect "WIFI_NAME" password "PASSWORD"
+
+# Verify
+
+nmcli connection show --active
