@@ -1,0 +1,22 @@
+# Enable Apache Rewrite Module
+sudo a2enmod rewrite
+
+# Enable Apache SSL Module
+sudo a2enmod ssl
+
+# Generate Self-Signed SSL Certificate
+sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 \
+-keyout /etc/ssl/private/apache-selfsigned.key \
+-out /etc/ssl/certs/apache-selfsigned.crt
+
+# Configure Apache Ports
+sudo nano /etc/apache2/ports.conf
+
+# Create VirtualHost Configuration (VHOST_SAMPLE_FILE)
+sudo nano /etc/apache2/sites-available/siteName.conf
+
+# Enable the VirtualHost
+sudo a2ensite siteName.conf
+
+# Restart APACHE
+sudo systemctl restart apache2
