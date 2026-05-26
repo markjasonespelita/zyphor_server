@@ -23,3 +23,8 @@ chroot.packages.live
 live-image-amd64.contents
 live-image-amd64.files
 live-image-amd64.packages
+
+## Executables
+bootHardDisk
+bootCDROM
+vmInit
